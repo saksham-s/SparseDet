@@ -1,6 +1,6 @@
 # SparseDet: Improving Sparsely Annotated Object Detection with Pseudo-positive Mining (ICCV 2023)
 
-![plot](./teaser.png)
+![plot](./assets/teaser.png)
 
 This is the official repository for the work [SparseDet: Improving Sparsely Annotated Object Detection with Pseudo-positive Mining] accepted to ICCV 2023. It includes scripts to train SparseDet on different splits also provided in this repository. Also see our [Project Webpage](cs.umd.edu/~sakshams/SparseDet/).
 
