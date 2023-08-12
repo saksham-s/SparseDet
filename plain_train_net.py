@@ -83,15 +83,10 @@ split3_30p = 'splits/split3_30p.json'
 split3_50p = 'splits/split3_50p.json'
 split3_70p = 'splits/split3_70p.json'
 
-# train_img_path_coco = <YOUR COCO IMAGE DIR>
-# train_ann_path_coco = <YOUR COCO TRAIN JSON>
-# val_img_path_coco = <YOUR COCO IMAGE DIR>
-# val_ann_path_coco = <YOUR COCO VAL JSON>
-
-train_img_path_coco = '/fs/vulcan-datasets/coco/images/train2017'
-train_ann_path_coco ='/fs/vulcan-datasets/coco/annotations/instances_train2017.json'
-val_img_path_coco = '/fs/vulcan-datasets/coco/images/val2017'
-val_ann_path_coco = '/fs/vulcan-datasets/coco/annotations/instances_val2017.json'
+train_img_path_coco = <YOUR COCO IMAGE DIR>
+train_ann_path_coco = <YOUR COCO TRAIN JSON>
+val_img_path_coco = <YOUR COCO IMAGE DIR>
+val_ann_path_coco = <YOUR COCO VAL JSON>
 
 register_coco_instances("split1_30p", {},
                         split1_30p, train_img_path_coco)
@@ -124,15 +119,10 @@ split5_30p = 'splits/split5_30p.json'
 split5_40p = 'splits/split5_40p.json'
 split5_50p = 'splits/split5_50p.json'
 
-# train_img_path_2007 = <YOUR VOC 2007 TRAIN IMAGE DIR>
-# train_img_path = <YOUR VOC 2007 and 2012 IMAGE DIR> #for all voc paths are relative to this
-# voc_val_json_path =  <YOUR VOC 2007 VAL JSON PATH>
-# voc_val_img_path = <YOUR VOC 2007 VAL IMAGE DIR>
-
-train_img_path_2007 = '/fs/vulcan-datasets/VOCdevkit/VOC2007/JPEGImages'
-train_img_path = '/fs/vulcan-datasets'
-voc_val_json_path =  '/fs/cfar-projects/grammar_analysis/iccv_final_code/SparseDet/voc_test_2007.json'
-voc_val_img_path = '/fs/vulcan-datasets/VOCdevkit/VOC2007/JPEGImages'
+train_img_path_2007 = <YOUR VOC 2007 TRAIN IMAGE DIR>
+train_img_path = <YOUR VOC 2007 and 2012 IMAGE DIR> #for all voc paths are relative to this
+voc_val_json_path =  <YOUR VOC 2007 VAL JSON PATH>
+voc_val_img_path = <YOUR VOC 2007 VAL IMAGE DIR>
 
 register_coco_instances("split4_easy", {},
                         split4_easy, train_img_path)
